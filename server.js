@@ -22,7 +22,7 @@ app.get('/akshay', function (req, res) {
 });
 
 app.get('/adesh', function (req, res) {
-   res.send("this adya pady page");
+   res.send("this adya page");
 });
 
 app.get('/yoyo', function (req, res) {
