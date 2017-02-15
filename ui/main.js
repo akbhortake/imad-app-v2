@@ -10,6 +10,6 @@ function myfun()
     img.style.marginLeft = "50px";
 }
 img.onclick=function(){
-    setInterval(myfun(),100);
+    setInterval(myfun,100);
     };
     
