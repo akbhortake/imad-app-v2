@@ -7,7 +7,7 @@ var myvar;
 var pxmo=0;
 var img =document.getElementById('madi');
 img.onclick=function(){
-   myvar= setInterval(myfun,10);
+   myvar= setInterval(myfun,1);
     };
 function myfun()
 {
