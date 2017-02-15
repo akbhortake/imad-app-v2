@@ -6,7 +6,7 @@ element.innerHTML="jal an dhur sangatach";
 
 var img =document.getElementById('madi');
 img.onclick=function(){
-    setInterval(myfun,100);
+    setInterval(myfun,1000);
     };
 function myfun()
 {
