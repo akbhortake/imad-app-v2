@@ -24,9 +24,10 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/articleOne', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article_one.html'));
 });
-
-app.get('/adesh', function (req, res) {
-   res.send("this adya page");
+var counter=0;
+app.get('/counter', function (req, res) {
+    counter=1+counter;
+   res.send("this page is load "+counter.toString()+" times");
 });
 
 app.get('/yoyo', function (req, res) {
